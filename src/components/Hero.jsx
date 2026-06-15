@@ -36,10 +36,8 @@ function Hero() {
         </div>
 
         <div className="social-icons">
-          <a href="https://github.com/yourname" target="_blank" rel="noreferrer"><FaGithub /></a>
-          <a href="https://linkedin.com/in/yourname" target="_blank" rel="noreferrer"><FaLinkedin /></a>
-          <a href="https://instagram.com/yourname" target="_blank" rel="noreferrer"><FaInstagram /></a>
-          <a href="https://twitter.com/yourname" target="_blank" rel="noreferrer"><FaTwitter /></a>
+          <a href="https://github.com/Sreejay23" target="_blank" rel="noreferrer"><FaGithub /></a>
+          <a href="https://linkedin.com/in/sreejay129" target="_blank" rel="noreferrer"><FaLinkedin /></a>
         </div>
       </div>
 
