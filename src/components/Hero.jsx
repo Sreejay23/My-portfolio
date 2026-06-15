@@ -32,7 +32,7 @@ function Hero() {
 
         <div className="hero-buttons">
           <Link to="/projects" className="btn">View My Work →</Link>
-          <a href="/resume.pdf" download className="btn btn-outline">Download CV</a>
+          <a href="/Sreejay Resume(WD).pdf" download className="btn btn-outline">Download CV</a>
         </div>
 
         <div className="social-icons">
