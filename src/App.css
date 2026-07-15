@@ -18,7 +18,7 @@ h1, h2, h3 {
 }
 
 .gradient-text {
-  background: linear-gradient(135deg, #FF5C8A, #FFB86C);
+  background: linear-gradient(135deg, #00B4D8, #0077B6);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
@@ -59,7 +59,7 @@ h1, h2, h3 {
 }
 
 .nav-links a:hover {
-  color: #FF5C8A;
+  color: #00B4D8;
 }
 
 /* Hero */
@@ -83,7 +83,7 @@ h1, h2, h3 {
 .eyebrow {
   display: inline-block;
   background: rgba(124, 92, 255, 0.15);
-  color: #B6A6FF;
+  color:#ADE8F4;
   padding: 0.4rem 1rem;
   border-radius: 100px;
   font-size: 0.85rem;
@@ -108,8 +108,8 @@ h1, h2, h3 {
 .btn {
   display: inline-block;
   padding: 0.9rem 2rem;
-  background: linear-gradient(135deg, #FF5C8A, #FFB86C);
-  color: #0F0E17;
+  background: linear-gradient(135deg,#00B4D8, #0077B6);
+  color: #03045E;
   text-decoration: none;
   border-radius: 100px;
   font-weight: 700;
@@ -132,7 +132,7 @@ h1, h2, h3 {
 .blob1 {
   width: 350px;
   height: 350px;
-  background: #7C5CFF;
+  background: #023E8A;
   top: -100px;
   left: -100px;
 }
@@ -140,7 +140,7 @@ h1, h2, h3 {
 .blob2 {
   width: 300px;
   height: 300px;
-  background: #FF5C8A;
+  background:#00B4D8;
   bottom: -80px;
   right: -80px;
 }
@@ -176,7 +176,7 @@ section h2 {
 .project-card:hover {
   transform: translateY(-6px);
   border-color: transparent;
-  box-shadow: 0 0 0 1px #7C5CFF, 0 15px 40px rgba(124, 92, 255, 0.25);
+  box-shadow: 0 0 0 1px #023E8A, 0 15px 40px rgba(124, 92, 255, 0.25);
 }
 
 .project-card h3 {
@@ -185,7 +185,7 @@ section h2 {
 }
 
 .project-card p {
-  color: #B8B4C9;
+  color: #ADE8F4;
   font-size: 0.95rem;
   margin-bottom: 1rem;
 }
@@ -193,7 +193,7 @@ section h2 {
 .tech-tags span {
   display: inline-block;
   background: rgba(124, 92, 255, 0.15);
-  color: #B6A6FF;
+  color: #90E0EF;
   padding: 0.25rem 0.7rem;
   border-radius: 100px;
   font-size: 0.78rem;
@@ -207,7 +207,7 @@ section h2 {
 
 .project-links a {
   margin-right: 1.2rem;
-  color: #FFB86C;
+  color:#0077B6;
   text-decoration: none;
   font-weight: 500;
   font-size: 0.9rem;
@@ -241,7 +241,7 @@ section h2 {
 }
 
 .about p {
-  color: #B8B4C9;
+  color: #ADE8F4;
   font-size: 1.1rem;
   max-width: 650px;
   margin: 0 auto;
@@ -259,7 +259,7 @@ section h2 {
 }
 
 .contact a {
-  color: #FFB86C;
+  color: #0077B6;
   text-decoration: none;
 }
 
@@ -272,7 +272,7 @@ section h2 {
 }
 
 .social-links a:hover {
-  color: #7C5CFF;
+  color:#023E8A;
 }
 
 /* Mobile */
@@ -327,7 +327,7 @@ section h2 {
 
 .btn-outline {
   background: transparent;
-  border: 2px solid #7C5CFF;
+  border: 2px solid #023E8A;
   color: #F4F1FF;
 }
 
@@ -348,7 +348,7 @@ section h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  border: 1px solid #7C5CFF;
+  border: 1px solid #023E8A;
   border-radius: 50%;
   color: #F4F1FF;
   font-size: 1.2rem;
@@ -356,8 +356,8 @@ section h2 {
 }
 
 .social-icons a:hover {
-  background: #7C5CFF;
-  color: #0F0E17;
+  background: #023E8A;
+  color: #03045E;
   transform: translateY(-3px);
 }
 
@@ -373,7 +373,7 @@ section h2 {
   width: 320px;
   height: 320px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #FF5C8A, #7C5CFF);
+  background: linear-gradient(135deg, #00B4D8, #023E8A);
   padding: 6px;
   filter: drop-shadow(0 0 30px rgba(124, 92, 255, 0.5));
 }
@@ -424,7 +424,7 @@ section h2 {
 .skill-card:hover {
   transform: translateY(-6px) scale(1.05);
   border-color: transparent;
-  box-shadow: 0 0 0 1px #7C5CFF, 0 15px 40px rgba(124, 92, 255, 0.25);
+  box-shadow: 0 0 0 1px #023E8A, 0 15px 40px rgba(124, 92, 255, 0.25);
 }
 
 .skill-icon {
@@ -459,7 +459,7 @@ section h2 {
 }
 
 .about-text p {
-  color: #B8B4C9;
+  color: #ADE8F4;
   font-size: 1.05rem;
   line-height: 1.8;
   margin-bottom: 1.2rem;
@@ -497,7 +497,7 @@ section h2 {
 }
 
 .stat-card p {
-  color: #B8B4C9;
+  color: #ADE8F4;
   font-size: 0.85rem;
 }
 
@@ -508,7 +508,7 @@ section h2 {
 }
 .contact-subtitle {
   text-align: center;
-  color: #B8B4C9;
+  color: #ADE8F4;
   margin-top: -1.5rem;
   margin-bottom: 2.5rem;
 }
@@ -538,7 +538,7 @@ section h2 {
   width: 24px;
   height: 24px;
   font-size: 1.4rem;
-  color: #FF5C8A;
+  color: #00B4D8;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -552,13 +552,13 @@ section h2 {
 }
 
 .info-item a, .info-item p {
-  color: #B8B4C9;
+  color: #ADE8F4;
   text-decoration: none;
   font-size: 0.95rem;
 }
 
 .info-item a:hover {
-  color: #FFB86C;
+  color: #0077B6;
 }
 
 .contact-form {
@@ -584,7 +584,7 @@ section h2 {
 
 .contact-form input:focus,
 .contact-form textarea:focus {
-  border-color: #7C5CFF;
+  border-color: #023E8A;
 }
 
 .contact-form textarea {
