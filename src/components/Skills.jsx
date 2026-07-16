@@ -26,7 +26,7 @@ function Skills() {
       <div className="skills-grid">
         {skills.map((skill, i) => (
           <div
-            className="skill-card"
+            className="skill-card fade-in-up"
             key={i}
             style={{ animationDelay: `${i * 0.1}s` }}
           >
