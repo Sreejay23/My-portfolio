@@ -24,7 +24,7 @@ function Projects() {
       </div>
       <div className="project-grid">
         {projects.map((proj, i) => (
-          <div className="project-card" key={i}>
+          <div className="project-card fade-in-up" key={i}>
             <div className="project-number">0{i + 1}</div>
             <h3>{proj.title}</h3>
             <p>{proj.description}</p>
