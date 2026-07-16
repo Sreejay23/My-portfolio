@@ -1,13 +1,14 @@
 import React from 'react'
-import { FaGithub, FaLinkedin, FaInstagram, FaTwitter, FaEnvelope, FaMapMarkerAlt, FaPhoneAlt } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaEnvelope, FaMapMarkerAlt, FaPhoneAlt } from 'react-icons/fa'
 
 function Contact() {
   return (
-    <section id="contact" className="contact">
-      <h2>Get In <span className="gradient-text">Touch</span></h2>
-      <p className="contact-subtitle">
-        Have a project in mind or just want to say hi? I'd love to hear from you.
-      </p>
+    <section className="contact-page">
+      <div className="about-header">
+        <h2>Get In <span className="gradient-text">Touch</span></h2>
+        <div className="about-underline"></div>
+      </div>
+      <p className="contact-subtitle">Have a project in mind or just want to say hi? I'd love to hear from you.</p>
 
       <div className="contact-content">
         <div className="contact-info">
@@ -18,26 +19,23 @@ function Contact() {
               <a href="mailto:sreejay129@gmail.com">sreejay129@gmail.com</a>
             </div>
           </div>
-
           <div className="info-item">
             <FaPhoneAlt className="info-icon" />
             <div>
               <h4>Phone</h4>
-              <a href="tel:+91XXXXXXXXXX">+91 6379521125</a>
+              <a href="tel:+91XXXXXXXXXX">+91 XXXXX XXXXX</a>
             </div>
           </div>
-
           <div className="info-item">
             <FaMapMarkerAlt className="info-icon" />
             <div>
               <h4>Location</h4>
-              <p>Thoothukudi, Tamil Nadu - 628005, India</p>
+              <p>Thoothukudi, Tamil Nadu, India</p>
             </div>
           </div>
-
           <div className="social-icons">
             <a href="https://github.com/Sreejay23" target="_blank" rel="noreferrer"><FaGithub /></a>
-            <a href="https://linkedin.com/in/sreejay129" target="_blank" rel="noreferrer"><FaLinkedin /></a>
+            <a href="https://linkedin.com/in/sreejay-a" target="_blank" rel="noreferrer"><FaLinkedin /></a>
           </div>
         </div>
 
