@@ -19,7 +19,7 @@ const skills = [
 function Skills() {
   return (
     <section className="skills-page">
-      <div className="about-header">
+      <div className="about-header fade-in-up">
         <h2>My <span className="gradient-text">Skills</span></h2>
         <div className="about-underline"></div>
       </div>
