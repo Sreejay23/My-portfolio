@@ -3,10 +3,15 @@ import React from 'react'
 const projects = [
   {
     title: "Foodie Express",
-    description: "A full-stack food delivery app with authentication, cart, orders and payment integration.",
-    tech: ["React", "Node.js", "Express", "MongoDB"],
+    description: "A full-stack food delivery platform that enables users to browse menus, place orders, track deliveries in real time, and manage purchases through a seamless checkout experience. The platform also includes dedicated chef and admin dashboards for efficient order and restaurant management.",
+    tech: ["HTML", "CSS", "Javascript", "React.js", "My SQL", "CI/CD", "PWA"],
     demo: "https://foodie-express-iota-ecru.vercel.app",
     repo: "https://github.com/Sreejay23/Foodie-Express"
+  },
+  {
+    title: "AWS S3 Storage Monitor",
+    description: "A serverless monitoring solution that tracks Amazon S3 bucket storage usage and trends in real time. The system automatically sends alerts, stores historical metrics for analysis, and provides a secure, scalable, and cost-efficient architecture for cloud storage monitoring.",
+    tech: ["AWS Lambda", "Amazon S3", "Amazon CloudWatch", "Amazon DynamoDB", "Amazon SES", "Amazon SNS", "AWS IAM", "AWS KMS"],
   }
 ]
 
