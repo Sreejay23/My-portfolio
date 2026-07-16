@@ -18,7 +18,7 @@ const projects = [
 function Projects() {
   return (
     <section className="projects-page">
-      <div className="about-header">
+      <div className="about-header fade-in-up">
         <h2>My <span className="gradient-text">Projects</span></h2>
         <div className="about-underline"></div>
       </div>
