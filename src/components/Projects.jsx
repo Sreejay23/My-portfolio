@@ -1,4 +1,5 @@
 import React from 'react'
+import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'
 
 const projects = [
   {
@@ -18,22 +19,46 @@ const projects = [
 function Projects() {
   return (
     <section className="projects-page">
-      <div className="about-header fade-in-up">
-        <h2>My <span className="gradient-text">Projects</span></h2>
-        <div className="about-underline"></div>
+      <div className="page-header">
+        <p className="page-tag">WHAT I'VE BUILT</p>
+        <h2>My <span className="blue">Projects</span></h2>
+        <div className="header-line"></div>
       </div>
-      <div className="project-grid">
+
+      <div className="projects-list">
         {projects.map((proj, i) => (
-          <div className="project-card fade-in-up" key={i}>
-            <div className="project-number">0{i + 1}</div>
-            <h3>{proj.title}</h3>
-            <p>{proj.description}</p>
-            <div className="tech-tags">
-              {proj.tech.map((t, j) => <span key={j}>{t}</span>)}
+          <div className="project-item" key={i}>
+            <div className="project-item-left" style={{ borderColor: proj.color }}>
+              <div className="project-num" style={{ color: proj.color }}>0{i + 1}</div>
+              <h3 className="project-title">{proj.title}</h3>
+              <p className="project-desc">{proj.description}</p>
+              <div className="project-tech">
+                {proj.tech.map((t, j) => (
+                  <span key={j} className="tech-pill">{t}</span>
+                ))}
+              </div>
+              <div className="project-btns">
+                {proj.demo && (
+                  <a href={proj.demo} target="_blank" rel="noreferrer" className="proj-btn-primary">
+                    <FaExternalLinkAlt /> Live Demo
+                  </a>
+                )}
+                <a href={proj.repo} target="_blank" rel="noreferrer" className="proj-btn-secondary">
+                  <FaGithub /> Source Code
+                </a>
+              </div>
             </div>
-            <div className="project-links">
-              {proj.demo && <a href={proj.demo} target="_blank" rel="noreferrer">Live Demo →</a>}
-              <a href={proj.repo} target="_blank" rel="noreferrer">GitHub →</a>
+            <div className="project-item-right" style={{ background: `linear-gradient(135deg, ${proj.color}15, ${proj.color}30)` }}>
+              <div className="project-mockup">
+                <div className="mockup-bar">
+                  <span></span><span></span><span></span>
+                </div>
+                <div className="mockup-content">
+                  <div className="mockup-line"></div>
+                  <div className="mockup-line short"></div>
+                  <div className="mockup-block" style={{ background: proj.color }}></div>
+                </div>
+              </div>
             </div>
           </div>
         ))}
@@ -42,4 +67,5 @@ function Projects() {
   )
 }
 
+export default Projects
 export default Projects
