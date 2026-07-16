@@ -5,33 +5,40 @@ import {
 import { SiMysql } from 'react-icons/si'
 
 const skills = [
-  { name: 'Java', icon: <FaJava /> },
-  { name: 'HTML5', icon: <FaHtml5 /> },
-  { name: 'CSS3', icon: <FaCss3Alt /> },
-  { name: 'JavaScript', icon: <FaJsSquare /> },
-  { name: 'MySQL', icon: <SiMysql /> },
-  { name: 'React.js', icon: <FaReact /> },
-  { name: 'AWS Cloud', icon: <FaAws /> },
-  { name: 'Git', icon: <FaGitAlt /> },
-  { name: 'GitHub', icon: <FaGithub /> },
+  { name: 'Java', icon: <FaJava />, level: 75 },
+  { name: 'HTML5', icon: <FaHtml5 />, level: 90 },
+  { name: 'CSS3', icon: <FaCss3Alt />, level: 85 },
+  { name: 'JavaScript', icon: <FaJsSquare />, level: 80 },
+  { name: 'React.js', icon: <FaReact />, level: 85 },
+  { name: 'MySQL', icon: <SiMysql />, level: 70 },
+  { name: 'AWS Cloud', icon: <FaAws />, level: 65 },
+  { name: 'Git', icon: <FaGitAlt />, level: 80 },
+  { name: 'GitHub', icon: <FaGithub />, level: 80 },
 ]
 
 function Skills() {
   return (
     <section className="skills-page">
-      <div className="about-header fade-in-up">
-        <h2>My <span className="gradient-text">Skills</span></h2>
-        <div className="about-underline"></div>
+      <div className="page-header">
+        <p className="page-tag">WHAT I KNOW</p>
+        <h2>My <span className="blue">Skills</span></h2>
+        <div className="header-line"></div>
       </div>
-      <div className="skills-grid">
+
+      <div className="skills-container">
         {skills.map((skill, i) => (
-          <div
-            className="skill-card fade-in-up"
-            key={i}
-            style={{ animationDelay: `${i * 0.1}s` }}
-          >
-            <div className="skill-icon">{skill.icon}</div>
-            <p>{skill.name}</p>
+          <div className="skill-row" key={i}>
+            <div className="skill-label">
+              <span className="skill-icon-sm">{skill.icon}</span>
+              <span className="skill-name">{skill.name}</span>
+            </div>
+            <div className="skill-bar-bg">
+              <div
+                className="skill-bar-fill"
+                style={{ width: `${skill.level}%`, animationDelay: `${i * 0.1}s` }}
+              ></div>
+            </div>
+            <span className="skill-percent">{skill.level}%</span>
           </div>
         ))}
       </div>
