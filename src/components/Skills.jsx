@@ -18,8 +18,11 @@ const skills = [
 
 function Skills() {
   return (
-    <section id="skills" className="skills">
-      <h2>My <span className="gradient-text">Skills</span></h2>
+    <section className="skills-page">
+      <div className="about-header">
+        <h2>My <span className="gradient-text">Skills</span></h2>
+        <div className="about-underline"></div>
+      </div>
       <div className="skills-grid">
         {skills.map((skill, i) => (
           <div
