@@ -1,39 +1,52 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function About() {
   return (
     <section className="about-page">
-      <div className="about-header fade-in-up">
-        <h2>About <span className="gradient-text">Me</span></h2>
-        <div className="about-underline"></div>
+      <div className="page-header">
+        <p className="page-tag">WHO I AM</p>
+        <h2>About <span className="blue">Me</span></h2>
+        <div className="header-line"></div>
       </div>
 
-      <div className="about-content">
-        <div className="about-text fade-in-left">
-          <p>
-            I'm a software developer from Thoothukudi, Tamil Nadu, India. I enjoy turning ideas into working products using clean code and modern technologies.
-          </p>
-          <p>
-            I'm currently focused on full-stack development with hands-on experience in React, Java, and cloud platforms like AWS. I love solving real problems and constantly learning new tools.
-          </p>
-          <p className="about-fun">
-            Outside of coding, I enjoy exploring new technologies and staying up to date with the latest trends in the tech world.
-          </p>
+      <div className="about-grid">
+        <div className="about-left">
+          <div className="about-img-wrap">
+            <div className="about-img-bg"></div>
+            <div className="about-info-card">
+              <div className="info-row">📍 Thoothukudi, Tamil Nadu</div>
+              <div className="info-row">🎓 B.E Computer Science</div>
+              <div className="info-row">💼 Open to opportunities</div>
+            </div>
+          </div>
         </div>
 
-        <div className="about-stats fade-in-right">
-          <div className="stat-card">
-            <h3 className="gradient-text">3+</h3>
-            <p>Projects Built</p>
+        <div className="about-right">
+          <h3 className="about-greeting">Nice to meet you!</h3>
+          <p className="about-bio">
+            I'm a software developer from Thoothukudi, Tamil Nadu. I enjoy building clean, useful web applications that solve real problems.
+          </p>
+          <p className="about-bio">
+            Currently focused on full-stack development with React, Node.js, and cloud platforms like AWS. I love learning new technologies and constantly improving my skills.
+          </p>
+
+          <div className="about-stats-row">
+            <div className="stat-box">
+              <h4 className="blue">3+</h4>
+              <p>Projects</p>
+            </div>
+            <div className="stat-box">
+              <h4 className="blue">9+</h4>
+              <p>Technologies</p>
+            </div>
+            <div className="stat-box">
+              <h4 className="blue">1+</h4>
+              <p>Years</p>
+            </div>
           </div>
-          <div className="stat-card">
-            <h3 className="gradient-text">9+</h3>
-            <p>Technologies</p>
-          </div>
-          <div className="stat-card">
-            <h3 className="gradient-text">1+</h3>
-            <p>Years Learning</p>
-          </div>
+
+          <Link to="/contact" className="btn-primary">Let's Work Together →</Link>
         </div>
       </div>
     </section>
