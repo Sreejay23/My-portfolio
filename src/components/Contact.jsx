@@ -11,7 +11,7 @@ function Contact() {
       <p className="contact-subtitle">Have a project in mind or just want to say hi? I'd love to hear from you.</p>
 
       <div className="contact-content">
-        <div className="contact-info">
+        <div className="contact-info fade-in-left">
           <div className="info-item">
             <FaEnvelope className="info-icon" />
             <div>
@@ -39,7 +39,7 @@ function Contact() {
           </div>
         </div>
 
-        <form className="contact-form" onSubmit={(e) => e.preventDefault()}>
+        <form className="contact-form fade-in-right" onSubmit={(e) => e.preventDefault()}>
           <input type="text" placeholder="Your Name" required />
           <input type="email" placeholder="Your Email" required />
           <textarea placeholder="Your Message" rows="5" required></textarea>
