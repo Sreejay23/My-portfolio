@@ -9,7 +9,7 @@ function About() {
       </div>
 
       <div className="about-content">
-        <div className="about-text">
+        <div className="about-text fade-in-left">
           <p>
             I'm a software developer from Thoothukudi, Tamil Nadu, India. I enjoy turning ideas into working products using clean code and modern technologies.
           </p>
@@ -21,7 +21,7 @@ function About() {
           </p>
         </div>
 
-        <div className="about-stats">
+        <div className="about-stats fade-in-right">
           <div className="stat-card">
             <h3 className="gradient-text">3+</h3>
             <p>Projects Built</p>
