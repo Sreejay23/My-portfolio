@@ -4,7 +4,7 @@ import { FaGithub, FaLinkedin, FaEnvelope, FaMapMarkerAlt, FaPhoneAlt } from 're
 function Contact() {
   return (
     <section className="contact-page">
-      <div className="about-header">
+      <div className="about-header fade-in-up">
         <h2>Get In <span className="gradient-text">Touch</span></h2>
         <div className="about-underline"></div>
       </div>
