@@ -3,7 +3,7 @@ import React from 'react'
 function About() {
   return (
     <section className="about-page">
-      <div className="about-header">
+      <div className="about-header fade-in-up">
         <h2>About <span className="gradient-text">Me</span></h2>
         <div className="about-underline"></div>
       </div>
