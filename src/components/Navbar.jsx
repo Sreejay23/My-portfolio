@@ -10,21 +10,13 @@ function Navbar() {
     { path: '/projects', label: 'Projects' },
     { path: '/contact', label: 'Contact' },
   ]
-
   return (
     <nav className="navbar">
-      <div className="nav-logo">
-        <span className="logo-dot"></span>
-        Sreejay
-      </div>
+      <div className="nav-logo">SA.</div>
       <ul className="nav-links">
         {navItems.map((item) => (
           <li key={item.path}>
-            <Link
-              to={item.path}
-              className={location.pathname === item.path ? 'nav-link active' : 'nav-link'}
-            >
-              {location.pathname === item.path && <span className="nav-dot"></span>}
+            <Link to={item.path} className={location.pathname === item.path ? 'nav-link active' : 'nav-link'}>
               {item.label}
             </Link>
           </li>
