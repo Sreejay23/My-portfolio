@@ -23,7 +23,7 @@ function Contact() {
               <div className="contact-item-icon"><FaPhoneAlt /></div>
               <div>
                 <p className="contact-item-label">Phone</p>
-                <p>+91 XXXXX XXXXX</p>
+                <p>+91 6379521125</p>
               </div>
             </div>
             <div className="contact-item">
