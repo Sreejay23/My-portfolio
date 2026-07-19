@@ -11,9 +11,9 @@ function About() {
         <div className="about-left">
           <div className="about-info-box">
             <div className="info-row">📍 Thoothukudi, Tamil Nadu</div>
-            <div className="info-row">🎓 B.E Computer Science</div>
+            <div className="info-row">🎓 B.E Mechanical Engineering</div>
             <div className="info-row">💼 Open to opportunities</div>
-            <div className="info-row">🌐 Full Stack Developer</div>
+            <div className="info-row">🌐 Front End Developer</div>
             <div className="info-row">☁️ AWS Cloud Enthusiast</div>
           </div>
         </div>
