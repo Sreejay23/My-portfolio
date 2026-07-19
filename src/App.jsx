@@ -6,7 +6,7 @@ import Projects from './components/Projects'
 import Skills from './components/Skills'
 import About from './components/About'
 import Contact from './components/Contact'
-import ChatBox from './components/ChatBox'
+import Chatbox from './components/Chatbox'
 import './App.css'
 
 function App() {
