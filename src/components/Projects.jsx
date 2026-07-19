@@ -4,21 +4,17 @@ import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa'
 const projects = [
   {
     title: "Foodie Express",
-    description: "A full-stack food delivery app with authentication, cart, orders and payment integration.",
-    tech: ["React", "Node.js", "Express", "MongoDB"],
-    demo: "https://foodie-express-iota-ecru.vercel.app",
-    repo: "https://github.com/Sreejay23/Foodie-Express",
-    color: "#4f8ef7"
+    description:
+      "Developed a responsive full-stack food delivery platform with secure user authentication, shopping cart, and order management features. Built an intuitive user interface with real-time order tracking and an admin dashboard for efficient restaurant management. Designed the application with a modern, mobile-friendly interface and optimized performance for a seamless user experience.",
+    tech: ["React.js", "HTML", "CSS", "JavaScript", "MySQL"]
   },
   {
-    title: "My Portfolio",
-    description: "A modern personal portfolio website built with React. Features animations, responsive design and multi-page routing.",
-    tech: ["React", "CSS3", "Vercel"],
-    demo: "https://sreejayportfolio.vercel.app",
-    repo: "https://github.com/Sreejay23/My-portfolio",
-    color: "#a78bfa"
+    title: "AWS S3 Storage Monitor",
+    description:
+      "Designed a serverless cloud monitoring system to track Amazon S3 bucket storage usage and performance trends. Automated real-time email notifications using AWS Lambda, Amazon SES, and SNS while storing historical metrics in DynamoDB. Implemented a secure, scalable, and cost-efficient event-driven architecture using IAM roles, CloudWatch, and AWS KMS.",
+    tech: ["AWS Lambda", "Amazon S3", "CloudWatch", "Amazon SES", "Amazon SNS", "DynamoDB", "IAM", "AWS KMS"]
   }
-]
+];
 
 function Projects() {
   return (
