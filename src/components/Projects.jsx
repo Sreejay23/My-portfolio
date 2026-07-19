@@ -14,7 +14,7 @@ const projects = [
       "Designed a serverless cloud monitoring system to track Amazon S3 bucket storage usage and performance trends. Automated real-time email notifications using AWS Lambda, Amazon SES, and SNS while storing historical metrics in DynamoDB. Implemented a secure, scalable, and cost-efficient event-driven architecture using IAM roles, CloudWatch, and AWS KMS.",
     tech: ["AWS Lambda", "Amazon S3", "CloudWatch", "Amazon SES", "Amazon SNS", "DynamoDB", "IAM", "AWS KMS"]
   }
-];
+]
 
 function Projects() {
   return (
